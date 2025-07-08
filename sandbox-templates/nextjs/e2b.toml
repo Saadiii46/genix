@@ -1,0 +1,17 @@
+# This is a config for E2B sandbox template.
+# You can use template ID (7l9pgxhqbyfl6vlcpc9n) or template name (genix-nextjs-saad) to create a sandbox:
+
+# Python SDK
+# from e2b import Sandbox, AsyncSandbox
+# sandbox = Sandbox("genix-nextjs-saad") # Sync sandbox
+# sandbox = await AsyncSandbox.create("genix-nextjs-saad") # Async sandbox
+
+# JS SDK
+# import { Sandbox } from 'e2b'
+# const sandbox = await Sandbox.create('genix-nextjs-saad')
+
+team_id = "b8a9b4a2-3469-46bb-8269-0f1c18e89051"
+start_cmd = "/compile_page.sh"
+dockerfile = "e2b.Dockerfile"
+template_name = "genix-nextjs-saad"
+template_id = "7l9pgxhqbyfl6vlcpc9n"
